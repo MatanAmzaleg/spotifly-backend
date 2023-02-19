@@ -10,7 +10,7 @@ const app = express();
 const port = 3001
 
 const corsOptions ={
-    origin:'http://localhost:3000', 
+    origin:'https://spotifly-app.onrender.com/', 
     credentials:true,            
     optionSuccessStatus:200
 }
