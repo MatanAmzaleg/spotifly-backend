@@ -8,9 +8,9 @@ const songRoutes = require('./api/song/song.routes')
 const app = express();
 
 const port = 3001
-// http://localhost:3000 -- on build https://spotifly-app.onrender.com
+// http://localhost:3000 -- on build 
 const corsOptions ={
-    origin:'http://localhost:3000', 
+    origin:'https://spotifly-app.onrender.com', 
     credentials:true,            
     optionSuccessStatus:200
 }
